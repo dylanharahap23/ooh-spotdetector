@@ -1,0 +1,9 @@
+# Jangan commit venv, data besar, atau artefak build
+__pycache__/
+*.py[cod]
+*.parquet
+*.log
+.venv/
+venv/
+node_modules/
+.DS_Store
